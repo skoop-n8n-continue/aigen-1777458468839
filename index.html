@@ -5,9 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .wrapper {
+        background-color: green;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
 </head>
 <body>
+  <div class="wrapper">
     <h1>Hello World</h1>
+  </div>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
